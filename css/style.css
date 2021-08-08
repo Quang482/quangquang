@@ -1,0 +1,305 @@
+
+:root{
+	--bg1:#FFFFFF;
+	--bg2:#3498db;
+	--text:	#9FFFFF;
+
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.myButton1 {
+				box-shadow: 3px 4px 0px 0px #f29c93;
+				background:linear-gradient(to bottom, #f07365 5%, #e66363 100%);
+				background-color:#f07365;
+				border-radius:15px;
+				border:1px solid #e8776d;
+				display:inline-block;
+				cursor:pointer;
+				color:#ffffff;
+				font-family:Arial;
+				font-size:17px;
+				padding:7px 25px;
+				text-decoration:none;
+				text-shadow:0px 1px 0px #b23e35;
+				transition: 0.6s;
+			}
+			.myButton1:hover {
+				background:linear-gradient(to bottom, #e66363 5%, #f07365 100%);
+				background-color:#e66363;
+			}
+			.myButton1:active {
+				position:relative;
+				top:1px;
+				margin-left: 0;
+}
+.myButton2 {
+				box-shadow: 3px 4px 0px 0px #e3bc8d;
+				background:linear-gradient(to bottom, #fcb45d 5%, #ffd29c 100%);
+				background-color:#fcb45d;
+				border-radius:15px;
+				border:1px solid #ffbb45;
+				display:inline-block;
+				cursor:pointer;
+				color:#ffffff;
+				font-family:Arial;
+				font-size:17px;
+				padding:7px 25px;
+				text-decoration:none;
+				text-shadow:0px 1px 0px #cc9f52;
+				transition: 0.6s;
+			}
+			.myButton2:hover {
+				background:linear-gradient(to bottom, #ffd29c 5%, #fcb45d 100%);
+				background-color:#ffd29c;
+			}
+			.myButton2:active {
+				position:relative;
+				top:1px;
+
+
+}
+
+
+.myButton3 {
+				box-shadow: 3px 4px 0px 0px #caefab;
+				background:linear-gradient(to bottom, #cdf0af 5%, #8dd151 100%);
+				background-color:#cdf0af;
+				border-radius:15px;
+				border:1px solid #adeba2;
+				display:inline-block;
+				cursor:pointer;
+				color:#ffffff;
+				font-family:Arial;
+				font-size:17px;
+				padding:7px 25px;
+				text-decoration:none;
+				text-shadow:0px 1px 0px #639c2e;
+				transition: 0.6s;
+			}
+			.myButton3:hover {
+				background:linear-gradient(to bottom, #8dd151 5%, #cdf0af 100%);
+				background-color:#8dd151;
+			}
+			.myButton3:active {
+				position:relative;
+				top:1px;
+}
+
+
+
+.myButton4 {
+				box-shadow: 3px 4px 0px 0px #bbdaf7;
+				background:linear-gradient(to bottom, #79bbff 5%, #9dc9f5 100%);
+				background-color:#79bbff;
+				border-radius:15px;
+				border:1px solid #84bbf3;
+				display:inline-block;
+				cursor:pointer;
+				color:#ffffff;
+				font-family:Arial;
+				font-size:17px;
+				padding:7px 25px;
+				text-decoration:none;
+				text-shadow:0px 1px 0px #528ecc;
+				transition: 0.6s;
+			}
+			.myButton4:hover {
+				background:linear-gradient(to bottom, #9dc9f5 5%, #79bbff 100%);
+				background-color:#9dc9f5;
+			}
+			.myButton4:active {
+				position:relative;
+				top:1px;
+}
+.myButton5 {
+				box-shadow: 3px 4px 0px 0px #f29c93;
+				background:linear-gradient(to bottom, #f07365 5%, #e66363 100%);
+				background-color:#f07365;
+				border-radius:15px;
+				border:1px solid #e8776d;
+				display:inline-block;
+				cursor:pointer;
+				color:#ffffff;
+				font-family:Arial;
+				font-size:17px;
+				padding:7px 25px;
+				text-decoration:none;
+				text-shadow:0px 1px 0px #b23e35;
+				transition: 0.6s;
+			}
+			.myButton5:hover {
+				background:linear-gradient(to bottom, #e66363 5%, #f07365 100%);
+				background-color:#e66363;
+			}
+			.myButton5:active {
+				position:relative;
+				top:1px;
+						
+
+}
+
+
+
+
+
+
+/*-------------------------------------*/
+
+
+.khoi-slide{
+	width: 100%;
+	height: 800px;
+	overflow: hidden;
+	position: absolute;
+	top: 47%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: -999;
+}
+
+
+.navigation{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+}
+
+.bar{
+	width: 20px;
+	height: 20px;
+	border:2px solid #FF0000;
+	border-radius: 30px;
+	margin: 10px;
+    cursor: pointer;
+}
+
+.bar:hover{
+	background: #f07365;
+	transition: 0.6s;
+	border:2px solid red;
+}
+
+.myButton1:hover{
+	background: #f07365;
+	transition: 0.6s;
+	border:2px solid red;
+}
+.myButton2:hover{
+	background: #fcb45d;
+	transition: 0.6s;
+	border:2px solid red;
+}
+.myButton3:hover{
+	background: #cdf0af;
+	transition: 0.6s;
+	border:2px solid red;
+}
+.myButton4:hover{
+	background: #79bbff;
+	transition: 0.6s;
+	border:2px solid red;
+}
+.myButton5:hover{
+	background: #f07365;
+	transition: 0.6s;
+	border:2px solid red;
+}
+
+
+
+input[name="bottom"]{
+	position: absolute;
+	visibility: hidden;
+}
+
+.cac-slide{
+	width: 500%;
+	height: 100%;
+	display: flex;
+}
+
+
+.slide{
+	width: 20%;
+	transition: 0.6s;
+}
+
+
+.slide img{
+	width: 100%;
+	height: 100%;
+}
+.slide.active{
+    opacity:  1;
+    visibility:  visible;	
+}
+
+#bottom_1:checked ~ .active{
+	margin-left: 0;
+}
+#bottom_2:checked ~ .active{
+	margin-left: -20%;
+}
+#bottom_3:checked ~ .active{
+	margin-left: -40%;
+}
+#bottom_4:checked ~ .active{
+	margin-left: -60%;
+}
+#bottom_5:checked ~ .active{
+	margin-left: -80%;
+}
+
+.ngay{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin-top: 50px;
+	margin-left: 200px;
+
+	
+}
+.item{	
+	margin-right: 20px;
+	height: 120px;
+	width: 120px;
+	border:2px solid var(--text);
+	flex-direction: column;
+	border-radius: 50%;
+	justify-content: center;
+	color: 	#7CFC00;
+
+}
+.item span{
+  margin-top: 12px; 
+  font-size: 30px;
+  	color: 	#ffffff;
+
+
+
+}
+.item p{
+
+  font-size: 22px;
+  margin-top: 30px;
+  color: 	#7FFF00;
+}
+
+
+#code{
+	position:relative;
+	margin:0 auto;
+	width:1100px;
+	height:680px;
+	margin-top:240px;
+	left:120px;
+	top:80px;
+	color:#FF0099;	
+	font-size:20px;
+}
